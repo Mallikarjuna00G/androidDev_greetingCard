@@ -1,6 +1,7 @@
 *.iml
 .gradle
 /local.properties
+/.idea
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -13,3 +14,12 @@
 .externalNativeBuild
 .cxx
 local.properties
+keystore
+secrets.xml
+assets/*.temp
+
+# Might want to include later
+app/proguard-rules.pro
+app/src/androidTest/
+app/src/test/
+gradle/
