@@ -22,4 +22,8 @@ assets/*.temp
 app/proguard-rules.pro
 app/src/androidTest/
 app/src/test/
+# Ignore the entire gradle folder
 gradle/
+
+# But don't ignore the gradle-wrapper.properties file within it
+!gradle/wrapper/gradle-wrapper.properties
